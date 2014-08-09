@@ -1,7 +1,7 @@
 InstallShield Setup Extract
 ===========================
 
-Extracts InstallShield Setup executables with embedded data files. `unshield` is required to further extract the actual data cabinets. Note that there are no sanity checks or version checks in yet so it will show you random data if you feed it an invalid or unsupported executable.
+Extracts InstallShield Setup executables with embedded data files. `unshield` is required to further extract the actual data cabinets. Note that there are very little sanity checks or version checks in yet so it will possibly show you random data if you feed it an invalid or unsupported executable.
 
 Some tested installers that can be unpacked with this tool (inc. sha1):
 

@@ -23,6 +23,7 @@
 #include <string.h>
 #include <stdint.h>
 #include <stdlib.h>
+#include <ctype.h>
 
 #include "pe.h"
 
@@ -59,8 +60,11 @@ char *read_string(FILE *fh)
         if (feof(fh)) return NULL;
 
         buf[i] = c;
+
         if (c == '\0')
             return _strdup(buf);
+        else if (!isprint(c))
+            return NULL;
     }
 
     return NULL;
