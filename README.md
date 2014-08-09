@@ -15,7 +15,7 @@ Usage
 
 Example
 -------
-    $ ./iss_extract l GTA2.exe                                                                                                                                        
+    $ ./iss_extract l GTA2.exe
     InstallShield Setup Extract / Copyright (c) 2014 Toni Spets <toni.spets@iki.fi>
     
     Length     Version          Name             Path
